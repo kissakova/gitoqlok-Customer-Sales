@@ -1,0 +1,32 @@
+{
+  "qProperty": {
+    "qInfo": {
+      "qId": "42b10fda-f739-4963-92bb-9404706dd5db",
+      "qType": "sheet"
+    },
+    "qMetaDef": {
+      "title": "Retail Sales Performance Analysis",
+      "description": "This sheet provides an overview of key trends and insights about our business, giving a clear picture of how performance is changing over time"
+    },
+    "rank": -1,
+    "thumbnail": {
+      "qStaticContentUrlDef": {
+        "qUrl": "/content/Default/Qlik_default_flower.png"
+      }
+    },
+    "columns": 24,
+    "rows": 12,
+    "cells": [],
+    "qChildListDef": {
+      "qData": {
+        "title": "/title"
+      }
+    },
+    "gridResolution": "small",
+    "layoutOptions": {
+      "mobileLayout": "LIST"
+    },
+    "gridMode": "edit"
+  },
+  "qChildren": []
+}

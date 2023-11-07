@@ -1,0 +1,14 @@
+{
+  "qInfo": {
+    "qId": "f746546b-b2a9-4d56-890b-375f42fee314",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "currentName",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "Data_new"
+}

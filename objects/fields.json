@@ -1,0 +1,78 @@
+[
+  {
+    "qName": "FieldName",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Import Fields"
+    ]
+  },
+  {
+    "qName": "ID заявки поставщика",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "offers"
+    ]
+  },
+  {
+    "qName": "ID предложения",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "offers"
+    ]
+  },
+  {
+    "qName": "TableName",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Import Fields"
+    ]
+  },
+  {
+    "qName": "ИД лота",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "offers"
+    ]
+  },
+  {
+    "qName": "ИД пункта плана",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "offers"
+    ]
+  },
+  {
+    "qName": "Сумма поставщика",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "offers"
+    ]
+  },
+  {
+    "qName": "Цена поставщика за единицу",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "offers"
+    ]
+  }
+]

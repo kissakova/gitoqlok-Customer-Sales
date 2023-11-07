@@ -1,0 +1,28 @@
+///$tab Section 2
+LOAD
+    "TableName",
+    "FieldName"
+FROM [lib://ADWH META (datanomix.pro_anatoliy.sirik@datanomix.pro)/ADWH Meta.xlsm]
+(ooxml, embedded labels, table is [Import Fields]);
+
+LOAD
+    "ID предложения",
+    "ИД пункта плана",
+    "ИД лота",
+    "Цена поставщика за единицу",
+    "ID заявки поставщика",
+    "Сумма поставщика"
+FROM [lib://ADWH Viewer (datanomix.pro_anatoliy.sirik@datanomix.pro)/offers.qvd]
+(qvd);
+
+Store offers into xyz.qvd (qvd);
+
+Store * from offers into 'C:\Users\{user}\Documents\Qlik\Sense\Apps';
+
+Store "ID предложения", "ID заявки поставщика" from offers into xyz.qvd;
+
+Store "ID предложения" as a, "ID заявки поставщика" as b from offers into 'C:\Users\{user}\Documents\Qlik\Sense\Apps';
+
+Store offers into myfile.txt (txt);
+
+Store * from offers into 'C:\Users\{user}\Documents\Qlik\Sense\Apps';
